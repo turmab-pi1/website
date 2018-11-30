@@ -1,14 +1,12 @@
 import React, { Component } from 'react';
 import './App.css';
-import Panel from './components/panel';
+import Carrosel from './components/carrosel';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <Panel panelColor={"red"} />
-        <Panel panelColor={"blue"} />
-        <Panel panelColor={"green"} />
+        <Carrosel/>
       </div>
     );
   }
