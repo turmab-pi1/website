@@ -4,6 +4,7 @@ import "materialize-css/dist/css/materialize.css";
 
 const pc3 = require('../assets/pdf/PC3_PI.pdf')
 const pc2 = require('../assets/pdf/PC2_PI.pdf')
+const pc1 = require('../assets/pdf/PC1_PI.pdf')
 
 export default class FloatButton extends Component {
   componentDidMount() {
@@ -22,7 +23,10 @@ export default class FloatButton extends Component {
         </a>
         <ul>
           <li>
-          <a className="btn-floating download-button">
+          <a
+            className="btn-floating download-button"
+            href={pc1}
+            download="Ponto de Controle 1">
               <i className="material-icons">looks_one</i>
             </a>
           </li>
