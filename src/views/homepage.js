@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import { Parallax } from 'react-parallax';
+import Slider from '../components/slider';
 
 const img1 = require("../assets/img1.jpg");
 const img2 = require("../assets/img2.jpg");
@@ -14,7 +15,7 @@ class Homepage extends Component{
                     bgImage={img1}
                     bgImageAlt="the cat"
                     strength={200}>  
-                    <div style={{ height: '40em' }} />
+                    <Slider />
                 </Parallax>
             </div>
         );

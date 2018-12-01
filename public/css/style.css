@@ -2,12 +2,14 @@
     background: black;
 }
 
-.paralax-1{
-    background: repeating-linear-gradient(
-        -60deg,
-        rgb(0, 0, 0, 0.1),
-        rgb(0, 0, 0, 0.1) 45%,
-        rgba(0, 0, 0, 0.4) 45%,
-        rgba(0, 0, 0, 0.4) 100%
-      ) !important;
+.paralax-slider {
+    height: 40em !important;
 }
+
+.paralax-slider .active{
+    background-color: rgb(7, 7, 7) !important;
+}
+
+.paralax-slider .slides, .paralax-slider .slides .active {
+    background-color: rgba(0,10,0,0) !important;
+  }
