@@ -2,6 +2,9 @@ import React, { Component } from "react";
 import M from "materialize-css/dist/js/materialize.min.js";
 import "materialize-css/dist/css/materialize.css";
 
+const pc3 = require('../assets/pdf/PC3_PI.pdf')
+const pc2 = require('../assets/pdf/PC2_PI.pdf')
+
 export default class FloatButton extends Component {
   componentDidMount() {
     let options = {
@@ -24,12 +27,18 @@ export default class FloatButton extends Component {
             </a>
           </li>
           <li>
-          <a className="btn-floating download-button">
+          <a
+            className="btn-floating download-button"
+            href={pc2}
+            download="Ponto de Controle 2">
               <i className="material-icons">looks_two</i>
             </a>
           </li>
           <li>
-          <a className="btn-floating download-button">
+          <a
+            className="btn-floating download-button"
+            href={pc3}
+            download="Ponto de Controle 3">
               <i className="material-icons">looks_3</i>
             </a>
           </li>
