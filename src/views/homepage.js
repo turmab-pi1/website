@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import { Parallax } from 'react-parallax';
 import Slider from '../components/slider';
+import FloatButton from '../components/float-button';
 
 const img1 = require("../assets/img1.jpg");
 const img2 = require("../assets/img2.jpg");
@@ -17,6 +18,7 @@ class Homepage extends Component{
                     strength={200}>  
                     <Slider />
                 </Parallax>
+                <FloatButton />
             </div>
         );
     }
