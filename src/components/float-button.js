@@ -18,7 +18,7 @@ export default class FloatButton extends Component {
 
   render() {
     return <div className="fixed-action-btn">
-        <a className="btn-floating btn-large download-button">
+        <a className="btn-floating btn-large download-button" href="!#">
           <i className="material-icons">file_download</i>
         </a>
         <ul>

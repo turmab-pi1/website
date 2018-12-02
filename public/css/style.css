@@ -12,9 +12,23 @@ body{
 }
 
 .paralax-slider .active{
-    background-color: rgb(7, 7, 7) !important;
+    background-color: rgb(74, 61, 45) !important;
 }
 
 .download-button {
     background-color: #48392A !important;
+}
+
+.team-imgs{
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.team-img{
+    width: 10em !important;
+    height: auto !important;
+}
+
+.team-title{
+    margin-bottom: 2em;
 }

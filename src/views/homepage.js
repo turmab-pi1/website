@@ -6,6 +6,7 @@ import FloatButton from '../components/float-button';
 
 import M from 'materialize-css/dist/js/materialize.min.js';
 import 'materialize-css/dist/css/materialize.css';
+import Team from '../components/team';
 
 const img1 = require("../assets/paralax/img1.jpg");
 const gif1 = require("../assets/paralax/gif1.gif");
@@ -28,7 +29,7 @@ class Homepage extends Component{
                     <Slider />
                 </Parallax>
 
-                <Cards />
+                <Team />
 
                 <Parallax
                     bgImage={gif1}

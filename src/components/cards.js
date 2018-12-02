@@ -28,7 +28,7 @@ class Cards extends Component {
                                  <img src={img4} alt="sup"/>
                             </div>
                             <span className="card-title">
-                                Vista Superior Lateral
+                                Vista Completa
                             </span>
                         </div>
                     </div>
@@ -38,7 +38,7 @@ class Cards extends Component {
                                 <img src={img3} alt="lat"/>
                             </div>
                             <span className="card-title">
-                                Vista Lateral 45º
+                                Vista Lateral 
                                 </span>
                         </div>
                     </div>

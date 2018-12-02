@@ -20,20 +20,21 @@ class Slider extends Component{
     }
 
     render(){
+
         return(
             <div>
                 <div class="slider paralax-slider" id="slider-paralax">
                     <ul class="slides">
                     <li>
-                        <div class="caption center-align">
-                        <h3>This is our big Tagline!</h3>
+                        <div class="caption left-align">
+                        <h3>Left Aligned Caption</h3>
                         <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
                         </div>
                     </li>
                     <li>
-                        <div class="caption left-align">
-                        <h3>Left Aligned Caption</h3>
-                        <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+                        <div class="caption center-align">
+                        <h2>Forno para Cura de Materiais Compositos </h2>
+                        <h3 class="light white-text">TURMA B</h3>
                         </div>
                     </li>
                     <li>
