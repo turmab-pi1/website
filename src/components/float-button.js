@@ -11,10 +11,13 @@ export default class FloatButton extends Component {
   componentDidMount() {
     let options = {
       direction: "left",
-      hoverEnabled: false
+      hoverEnabled: true
     };
     let elems = document.querySelectorAll(".fixed-action-btn");
     M.FloatingActionButton.init(elems, options);
+
+    var elems2 = document.querySelectorAll('.tooltipped');
+    M.Tooltip.init(elems2);
   }
 
   render() {
@@ -24,22 +27,46 @@ export default class FloatButton extends Component {
         </a>
         <ul>
           <li>
-            <a className="btn-floating download-button" href={pc1} download="Ponto de Controle 1">
-            <i className="content-donwload" >PC1</i>
+            <a 
+              className="btn-floating download-button tooltipped"  
+              href={pc1} 
+              download="Ponto de Controle 1"
+              data-position="top" 
+              data-tooltip="Ponto de Controle 1"  
+            >
+            <i className="content-donwload">PC1</i>
             </a>
           </li>
           <li>
-            <a className="btn-floating download-button" href={pc2} download="Ponto de Controle 2">
+            <a 
+              className="btn-floating download-button tooltipped" 
+              href={pc2} 
+              download="Ponto de Controle 2"
+              data-position="top" 
+              data-tooltip="Ponto de Controle 2"  
+            >
               <i className="content-donwload">PC2</i>
             </a>
           </li>
           <li>
-            <a className="btn-floating download-button" href={pc3} download="Ponto de Controle 3">
+            <a 
+              className="btn-floating download-button tooltipped" 
+              href={pc3} 
+              download="Ponto de Controle 3"
+              data-position="top" 
+              data-tooltip="Ponto de Controle 3" 
+            >
               <i className="content-donwload">PC3</i>
             </a>
           </li>
           <li>
-            <a className="btn-floating download-button" href={manual} download="Manual">
+            <a 
+              className="btn-floating download-button tooltipped" 
+              href={manual} 
+              download="Manual"
+              data-position="top" 
+              data-tooltip="Manual"
+              >
             <i className="material-icons">insert_drive_file</i>
             </a>
           </li>

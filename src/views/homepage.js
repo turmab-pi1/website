@@ -7,6 +7,7 @@ import FloatButton from '../components/float-button';
 import M from 'materialize-css/dist/js/materialize.min.js';
 import 'materialize-css/dist/css/materialize.css';
 import Team from '../components/team';
+import Specifications from '../components/specifications';
 
 const img1 = require("../assets/paralax/img1.jpg");
 const gif1 = require("../assets/paralax/gif1.gif");
@@ -32,7 +33,7 @@ class Homepage extends Component{
                 <Team />
 
                 <Parallax
-                    bgImage={gif1}
+                    bgImage={gif2}
                     bgImageAlt="the cat"
                     strength={200}>
                     <div style={{ height: '30em' }} />
@@ -41,11 +42,14 @@ class Homepage extends Component{
                 <Cards />
 
                 <Parallax
-                    bgImage={gif2}
+                    bgImage={gif1}
                     bgImageAlt="the cat"
                     strength={200}>
                     <div style={{ height: '30em' }} />
                 </Parallax>
+
+                <Specifications />
+
                 <FloatButton />
             </div>
         );

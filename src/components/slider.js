@@ -28,9 +28,9 @@ class Slider extends Component{
                     <li>
                         <div class="caption left-align">
                         <h3 class="white-text slider-subtitles">
-                            O objetivo primordial foi criar uma estrutura em que o processo fosse mais
-                            rápido e efetivo, levando o sistema a uma temperatura determinada pela resina
-                            utilizada atraves do aquecimento feito por resistências elétricas.
+                            O <b>objetivo primordial</b> foi criar uma <b>estrutura</b> em que o <b>processo</b> fosse 
+                            mais <b>rápido e efetivo</b>, levando o sistema a uma temperatura determinada pela resina
+                            utilizada atraves do <b>aquecimento</b> feito por <b>resistências elétricas</b>.
                         </h3>
                         </div>
                     </li>
