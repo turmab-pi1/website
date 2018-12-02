@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import { Parallax } from 'react-parallax';
 import Slider from '../components/slider';
 import Cards from '../components/cards';
+import FloatButton from '../components/float-button';
 
 import M from 'materialize-css/dist/js/materialize.min.js';
 import 'materialize-css/dist/css/materialize.css';
@@ -44,6 +45,7 @@ class Homepage extends Component{
                     strength={200}>
                     <div style={{ height: '30em' }} />
                 </Parallax>
+                <FloatButton />
             </div>
         );
     }

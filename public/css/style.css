@@ -14,3 +14,7 @@ body{
 .paralax-slider .active{
     background-color: rgb(7, 7, 7) !important;
 }
+
+.download-button {
+    background-color: #48392A !important;
+}
