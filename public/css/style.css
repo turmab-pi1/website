@@ -31,4 +31,13 @@ body{
 
 .team-title{
     margin-bottom: 2em;
+    font-weight: bold;
+}
+
+.slider-titles{
+    font-weight: bold;
+}
+
+.slider-subtitles{
+    margin-top: 2em;
 }
