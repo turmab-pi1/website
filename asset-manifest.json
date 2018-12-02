@@ -1,7 +1,7 @@
 {
-  "main.css": "/website/static/css/main.74f89ee4.chunk.css",
-  "main.js": "/website/static/js/main.b3f3911c.chunk.js",
-  "main.js.map": "/website/static/js/main.b3f3911c.chunk.js.map",
+  "main.css": "/website/static/css/main.ef23aad8.chunk.css",
+  "main.js": "/website/static/js/main.9daa949b.chunk.js",
+  "main.js.map": "/website/static/js/main.9daa949b.chunk.js.map",
   "static/css/1.2b48ef96.chunk.css": "/website/static/css/1.2b48ef96.chunk.css",
   "static/js/1.806d1a66.chunk.js": "/website/static/js/1.806d1a66.chunk.js",
   "static/js/1.806d1a66.chunk.js.map": "/website/static/js/1.806d1a66.chunk.js.map",
@@ -13,13 +13,14 @@
   "static/media/PC3_PI.pdf": "/website/static/media/PC3_PI.31394a9f.pdf",
   "static/media/PC2_PI.pdf": "/website/static/media/PC2_PI.965ae244.pdf",
   "static/media/PC1_PI.pdf": "/website/static/media/PC1_PI.0f812852.pdf",
+  "static/media/MANUAL_V1.pdf": "/website/static/media/MANUAL_V1.19bb21b5.pdf",
   "static/media/img1.jpg": "/website/static/media/img1.7bce956c.jpg",
   "static/media/gif1.gif": "/website/static/media/gif1.73be7b81.gif",
   "static/media/gif2.gif": "/website/static/media/gif2.215e2695.gif",
   "static/media/frontal.jpg": "/website/static/media/frontal.3e633d63.jpg",
-  "static/css/main.74f89ee4.chunk.css.map": "/website/static/css/main.74f89ee4.chunk.css.map",
+  "static/css/main.ef23aad8.chunk.css.map": "/website/static/css/main.ef23aad8.chunk.css.map",
   "static/css/1.2b48ef96.chunk.css.map": "/website/static/css/1.2b48ef96.chunk.css.map",
   "index.html": "/website/index.html",
-  "precache-manifest.bdcf63062a52edc7d4c73f2fe28bc6c9.js": "/website/precache-manifest.bdcf63062a52edc7d4c73f2fe28bc6c9.js",
+  "precache-manifest.ba4b25544548401cb71be8ddc4b7be5c.js": "/website/precache-manifest.ba4b25544548401cb71be8ddc4b7be5c.js",
   "service-worker.js": "/website/service-worker.js"
 }
