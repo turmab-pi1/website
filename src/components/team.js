@@ -10,8 +10,8 @@ class Team extends Component{
     render(){ 
         return(
             <div className="row team-imgs">
-                <div className="col s12 team-title">
-                    <h1>TIMES</h1>
+                <div className="col s12">
+                    <h1 className="team-title">TIMES</h1>
                 </div>
                 <div className="col s12 m6 l3">
                     <img src={cal} className="team-img" alt="cálculo"/> 

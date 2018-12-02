@@ -12,6 +12,9 @@ class Cards extends Component {
         return(
             <div>
                 <div class="row">
+                    <div className="col s12 team-title">
+                        <h2>Estrutura Final do Projeto</h2>
+                    </div>
                     <div class="col s12 m6 l3">
                         <div class="card hoverable">
                             <div class="card-image">

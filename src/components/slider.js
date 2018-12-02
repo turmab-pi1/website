@@ -27,26 +27,38 @@ class Slider extends Component{
                     <ul class="slides">
                     <li>
                         <div class="caption left-align">
-                        <h3>Left Aligned Caption</h3>
-                        <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+                        <h3 class="white-text slider-subtitles">
+                            O <b>objetivo primordial</b> foi criar uma <b>estrutura</b> em que o <b>processo</b> fosse 
+                            mais <b>rápido e efetivo</b>, levando o sistema a uma temperatura determinada pela resina
+                            utilizada atraves do <b>aquecimento</b> feito por <b>resistências elétricas</b>.
+                        </h3>
                         </div>
                     </li>
                     <li>
                         <div class="caption center-align">
-                        <h2>Forno para Cura de Materiais Compositos </h2>
-                        <h3 class="light white-text">TURMA B</h3>
+                        <h1 className="slider-titles">Forno para Cura de Materiais Compositos </h1>
+                        <h2 class="light white-text">TURMA B</h2>
                         </div>
                     </li>
                     <li>
                         <div class="caption left-align">
-                        <h3>Right Aligned Caption</h3>
-                        <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+                        <h2 className="slider-titles">Objetivo</h2>
+                        <h3 class="white-text slider-subtitles">
+                            Fabricação de um forno para cura de fibra 
+                            de carbono com o objetivo de facilitar 
+                            o processo de cura para equipes de competição 
+                            e pequenas empresas.
+                        </h3>
                         </div>
                     </li>
                     <li>
                         <div class="caption left-align">
-                        <h3>This is our big Tagline!</h3>
-                        <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+                        <h2 className="slider-titles">Material Compósito</h2>
+                        <h3 class="white-text slider-subtitles">
+                            Todo aquele composto que tem suas propriedades 
+                            determinadas por duas ou mais fases quimicamente 
+                            distintas que o constituem.  
+                        </h3>
                         </div>
                     </li>
                     </ul>
