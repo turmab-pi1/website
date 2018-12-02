@@ -31,6 +31,7 @@ body{
 
 .team-title{
     margin-bottom: 2em;
+<<<<<<< HEAD
     font-weight: bold;
 }
 
@@ -40,4 +41,10 @@ body{
 
 .slider-subtitles{
     margin-top: 2em;
+=======
+}
+
+.content-download {
+    font-weight: bold;
+>>>>>>> 3fbc7d858c1bbf8b3630a41ad94cc354a6eb59b9
 }
