@@ -36,7 +36,7 @@ class Homepage extends Component{
                     bgImage={gif2}
                     bgImageAlt="the cat"
                     strength={200}>
-                    <div style={{ height: '30em' }} />
+                    <div style={{ height: '40em' }} />
                 </Parallax>
 
                 <Cards />
@@ -45,7 +45,7 @@ class Homepage extends Component{
                     bgImage={gif1}
                     bgImageAlt="the cat"
                     strength={200}>
-                    <div style={{ height: '30em' }} />
+                    <div style={{ height: '40em' }} />
                 </Parallax>
 
                 <Specifications />
