@@ -37,7 +37,7 @@ class Slider extends Component{
                     <li>
                         <div class="caption center-align">
                         <h1 className="slider-titles">Forno para Cura de Materiais Compósitos </h1>
-                        <h2 class="light white-text">TURMA B</h2>
+                        <h2 class="light white-text slider-titles">TURMA B</h2>
                         </div>
                     </li>
                     <li>
