@@ -37,13 +37,13 @@ class Slider extends Component{
                         </div>
                     </li>
                     <li>
-                        <div class="caption right-align">
+                        <div class="caption left-align">
                         <h3>Right Aligned Caption</h3>
                         <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
                         </div>
                     </li>
                     <li>
-                        <div class="caption center-align">
+                        <div class="caption left-align">
                         <h3>This is our big Tagline!</h3>
                         <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
                         </div>
