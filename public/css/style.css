@@ -61,3 +61,12 @@ body{
 .specifications-text{
     margin-bottom: 2em;
 }
+
+@media (max-width: 600px) {
+    .slider-titles {
+        font-size: 2.5em !important;
+    }
+    .slider-subtitles {
+        font-size: 1.5em !important;
+    }
+}
